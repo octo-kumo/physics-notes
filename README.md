@@ -1,5 +1,3 @@
-# Physics Notes
-
 ## Topics
 
 - [Electromagnetism](./topics/Electromagnetism.md)
