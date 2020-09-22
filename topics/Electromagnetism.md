@@ -1,4 +1,9 @@
-# Electromagnetism
+---
+layout: default
+title: Electromagnetism
+description: OwO
+use_math: true
+---
 
 ### Magnetic Field
 
