@@ -1,0 +1,102 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Required CSS: Bootstrap, custom CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/website.css">
+
+  {%- if page.use_fontawesome -%}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  {%- endif -%}
+
+  {%- if page.use_code -%}
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/rouge-github.css">
+  {%- endif -%}
+
+  {%- if page.use_math -%}
+    <script type="text/javascript">
+      window.MathJax = {
+        tex: {
+          macros: {
+            E: "{\\mathbb{E}}",
+            R: "{\\mathbb{R}}",
+          },
+
+          // Use AMS numbering rules and support labeled equations.
+          // See https://docs.mathjax.org/en/latest/input/tex/eqnumbers.html
+          tags: 'ams',
+        },
+
+        // See https://chrisyeh96.github.io/2020/03/29/mathjax3.html
+        options: {
+          renderActions: {
+            findScript: [9, function (doc) {
+              for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+              }
+              doc.findMath();
+            }, '']
+          }
+        }
+      };
+    </script>
+    <script type="text/javascript" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+  {%- endif -%}
+
+  {% if page.use_toc %}
+  <script>
+    function toggleNav() {
+      var nav_toc = document.getElementById("{{ layout.toc_nav_id }}");
+      var main = document.getElementById("main");
+      var show_sidebar_button = document.getElementById("show-sidebar");
+
+      nav_toc.classList.toggle("d-xl-block");
+      main.classList.toggle("col-xl-9");
+      main.classList.toggle("col-xl-12");
+      show_sidebar_button.classList.toggle("d-xl-block");
+    }
+  </script>
+  {% endif %}
+
+  {% include analytics.html %}
+</head>
+
+{%- if page.use_toc -%}
+<body data-spy="scroll" data-target="#{{ layout.toc_nav_id }}">
+{%- else -%}
+<body>
+{%- endif -%}
+  {% include navbar.html %}
+  {% include header.html %}
+
+  <div class="container">
+    {{ content }}
+
+    {% include footer.html %}
+  </div>
+
+<!-- jQuery: necessary for Bootstrap's JavaScript plugins -->
+<!-- Popper.js: required for Bootstrap tooltips -->
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

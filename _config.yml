@@ -1,11 +1,9 @@
-theme: jekyll-theme-cayman
-title: [Physics Notes]
-description: [yes you need to stop playing games and revise feesiks]
+# theme: jekyll-theme-cayman
+title: Physics Notes
+description: yes you need to stop playing games and revise feesiks
 highlighter: rouge
-math_engine: mathjax
 
 compress_html:
   blanklines: true
-
 github:
   is_project_page: false
