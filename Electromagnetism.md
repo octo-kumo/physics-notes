@@ -2,17 +2,53 @@
 
 ### Magnetic Field
 
+| Symbol    | Description                                      |
+| --------- | ------------------------------------------------ |
+| $\mu$     | Magnetic Permeability. $\mu_0=4\pi\times10^{-7}$ |
+| $\vec{B}$ | Magnetic Field (Vector field)                    |
+
+#### 1. Long Straight Wires
+
 $$
-\begin{equation}
-\lvert\vec{B}\rvert
-=\frac{\mu \cdot I}{2 \pi r}
-=\frac{\mu}{4\pi}\cdot\frac{qv\cdot\sin{\theta}}{r^2}
-\end{equation}
+\lvert\vec{B}\rvert=\frac{\mu_0\cdot I}{2 \pi r}
 $$
 
-$\mu$ is the magnetic permeability, $\theta$ is the angle between the magnetic field and the velocity of the charge
+**Note:** Use right hand rule to find out the direction of the magnetic field
 
-> $\mu_{vacuum}=\mu_{air}=4\pi10^-7\ \text{Tm/A}$
+#### 2. Flat Circular Loop
+
+$$
+\lvert\vec{B}\rvert=\frac{\mu_0\cdot I}{2r}
+$$
+
+**If** $N$ loops are to be stacked (and the current's direction is the same)
+$$
+\lvert\vec{B}\rvert=N\times\frac{\mu_0\cdot I}{2r}
+$$
+
+**Note:** This is only valid at the center of the loop
+
+#### 3. Solenoid
+
+$$
+\lvert\vec{B}\rvert=\mu_0 nI
+$$
+
+- $n$ is number of loops per unit length of the solenoid, $n=N\div l$
+
+- $N$ is number of loops
+- $l$ is the length of the solenoid
+
+**Note:** The field inside of a solenoid is nearly uniform in direction and magnitude, only near the ends does it begin to weaken and change direction.
+
+#### 4. Permeability
+
+$$
+\mu=\mu_r\mu_0
+$$
+
+**e.g** $\mu_r$ of iron is about 5000, this means that the magnetic field of a solenoid with an iron core would be about 5000 times stronger
+**Note:** $\mu_r$ is not constant and will depend on the 'magnetisation history' of the material.
 
 ### Forces
 
