@@ -47,19 +47,30 @@ $$
 \mu=\mu_r\mu_0
 $$
 
-**e.g** $\mu_r$ of iron is about 5000, this means that the magnetic field of a solenoid with an iron core would be about 5000 times stronger
+**e.g.** $\mu_r$ of iron is about 5000, this means that the magnetic field of a solenoid with an iron core would be about 5000 times stronger
 **Note:** $\mu_r$ is not constant and will depend on the 'magnetisation history' of the material.
 
-### Forces
+### Magnetic Force
 
 ![FBI mnemonics - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/ManoLaplace.svg/220px-ManoLaplace.svg.png)
-$$
-\vec{F}=\vec{I}L\times\vec{B}=q\vec{v}\times\vec{B}
-$$
-- A changing electric field (moving charges / current) creates a magnetic field, and the magnetic field will interact with the existing magnetic field to generate the force
 
-- A changing magnetic field (moving magnets) creates a electric field, and the electric field will create potential difference
+#### 1. Force of magnetic field on a wire
 
+$$
+\vec{F}=\vec{I}L\times\vec{B}\quad\text{and/or}\quad|\vec{F}|=ILB\sin{\alpha}
+$$
+**Note:** $\vec{I}$ is **conventional current**
+**Note:** Use Fleming's **left** hand rule to find the direction of the force
+**Note:** $\alpha$ is the angle between the magnetic field's direction and the wire's direction
+
+#### 2. Force of magnetic field on a moving charge
+
+$$
+\vec{F}=q\vec{v}\times\vec{B}\quad\text{and/or}\quad|\vec{F}|=qvB\sin{\alpha}
+$$
+
+**Note:** If the charge is not moving, there is no force
+**Note:** $\alpha$ is the angle between the magnetic field's direction and the charge's velocity's direction
 
 ### Circular motion of particle in a magnetic field
 
