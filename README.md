@@ -15,6 +15,6 @@
 
 ### Contribute
 
-1. Fork this repo
+1. [Fork](https://github.com/octo-kumo/physics-notes/fork) this repo
 2. Do your edits
 3. Make pull request
