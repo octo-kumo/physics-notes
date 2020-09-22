@@ -73,8 +73,6 @@ layout: compress
     }
   </script>
   {% endif %}
-
-  {% include analytics.html %}
 </head>
 
 {%- if page.use_toc -%}
@@ -82,13 +80,9 @@ layout: compress
 {%- else -%}
 <body>
 {%- endif -%}
-  {% include navbar.html %}
-  {% include header.html %}
 
   <div class="container">
     {{ content }}
-
-    {% include footer.html %}
   </div>
 
 <!-- jQuery: necessary for Bootstrap's JavaScript plugins -->
