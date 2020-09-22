@@ -81,7 +81,7 @@ $$
 
 Since $a=\frac{v^2}{R}$ and $F=ma$, $F=qvB=m\frac{v^2}{R}\ \Rightarrow\ R=\frac{mv}{qB}$
 
-  
+
 
 | Electric Field (E) | Electric Potential (V) | Magnetic Field (B) |
 |---|---|---|
@@ -89,4 +89,3 @@ Since $a=\frac{v^2}{R}$ and $F=ma$, $F=qvB=m\frac{v^2}{R}\ \Rightarrow\ R=\frac{
 | ![E-field different charge](https://www.expunctis.com/images/2018-06-10/E_-03_1.png) | ![V-field different charge](https://www.expunctis.com/images/2018-06-10/V_-03_1.png) | ![B-field Opposite direction](https://www.expunctis.com/images/2018-06-10/B_-03_1.png) |
 
 <style type="text/css"> @media print { #write{ max-width: 100%; } @page { size: A4; margin-left: 0; margin-right: 0; } } </style>
-
