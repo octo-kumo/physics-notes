@@ -2,7 +2,7 @@
 
 ## Topics
 
-- [Electromagnetism](Electromagnetism.md)
+- [Electromagnetism](./topics/Electromagnetism.md)
 - More coming soon
 
 ### Description
