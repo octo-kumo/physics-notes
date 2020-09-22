@@ -1,6 +1,6 @@
 ---
 title: Electromagnetism
-layout: default
+layout: topic
 description: OwO
 use_math: true
 ---
