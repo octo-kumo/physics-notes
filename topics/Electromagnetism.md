@@ -1,7 +1,7 @@
 ---
 title: Electromagnetism
 layout: topic
-description: OwO
+description: All about electromagnets
 use_math: true
 ---
 
@@ -40,7 +40,6 @@ $$
 $$
 
 - $$n$$ is number of loops per unit length of the solenoid, $$n=N\div l$$
-
 - $$N$$ is number of loops
 - $$l$$ is the length of the solenoid
 
@@ -52,8 +51,8 @@ $$
 \mu=\mu_r\mu_0
 $$
 
-**e.g.** $$\mu_r$$ of iron is about 5000, this means that the magnetic field of a solenoid with an iron core would be about 5000 times stronger
-**Note:** $$\mu_r$$ is not constant and will depend on the 'magnetisation history' of the material.
+- **e.g.** $$\mu_r$$ of iron is about 5000, this means that the magnetic field of a solenoid with an iron core would be about 5000 times stronger
+- **Note:** $$\mu_r$$ is not constant and will depend on the 'magnetisation history' of the material.
 
 ### Magnetic Force
 
@@ -64,9 +63,9 @@ $$
 $$
 \vec{F}=\vec{I}L\times\vec{B}\quad\text{and/or}\quad|\vec{F}|=ILB\sin{\alpha}
 $$
-**Note:** $$\vec{I}$$ is **conventional current**
-**Note:** Use Fleming's **left** hand rule to find the direction of the force
-**Note:** $$\alpha$$ is the angle between the magnetic field's direction and the wire's direction
+- **Note:** $$\vec{I}$$ is **conventional current**
+- **Note:** Use Fleming's **left** hand rule to find the direction of the force
+- **Note:** $$\alpha$$ is the angle between the magnetic field's direction and the wire's direction
 
 #### 2. Force of magnetic field on a moving charge
 
@@ -74,8 +73,8 @@ $$
 \vec{F}=q\vec{v}\times\vec{B}\quad\text{and/or}\quad|\vec{F}|=qvB\sin{\alpha}
 $$
 
-**Note:** If the charge is not moving, there is no force
-**Note:** $$\alpha$$ is the angle between the magnetic field's direction and the charge's velocity's direction
+- **Note:** If the charge is not moving, there is no force
+- **Note:** $$\alpha$$ is the angle between the magnetic field's direction and the charge's velocity's direction
 
 ### Circular motion of particle in a magnetic field
 

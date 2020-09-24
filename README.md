@@ -1,6 +1,7 @@
 ## Topics
 
 - [Electromagnetism](./topics/Electromagnetism.md)
+- [Electromagnetic Induction](./topics/EMI.md)
 - More coming soon
 
 ### Description
