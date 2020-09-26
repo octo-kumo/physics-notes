@@ -26,4 +26,3 @@ $$
 
 - **Explantion:** Changes in magnetic flux creats an induced electromagnetic force (emf)
 - **Note:** There is a negative sign
-

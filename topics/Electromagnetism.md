@@ -78,9 +78,18 @@ $$
 
 ### Circular motion of particle in a magnetic field
 
-Since $$a=\frac{v^2}{R}$$ and $$F=ma$$, $$F=qvB=m\frac{v^2}{R}\ \Rightarrow\ R=\frac{mv}{qB}$$
+###### Circular motion recap
 
+1. Centripidel force: force towards the center of the circular path
+   - $$F=m\frac{v^2}{r}$$ , where $$m$$ is the mass and $$v$$ is the speed the object is traveling along the circular path
+2. $$\omega=v\div{r}$$, angular velocity, in $$rad/s$$
 
+###### Actual stuff
+
+Since $$F=qvB$$ and $$F=m\frac{v^2}{r}$$, so $$qvB=m\frac{v^2}{r}$$, and hence
+$$
+r=\frac{mv}{qB}
+$$
 
 | Electric Field (E) | Electric Potential (V) | Magnetic Field (B) |
 |---|---|---|
