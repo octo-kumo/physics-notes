@@ -21,8 +21,11 @@ $$
 #### Change in magnetic flux
 
 $$
-emf=-N\cdot\frac{\mathrm{d}\phi}{\mathrm{d}t}
+\mathcal{E}=-N\cdot\frac{\mathrm{d}\phi}{\mathrm{d}t}
 $$
 
-- **Explantion:** Changes in magnetic flux creats an induced electromagnetic force (emf)
-- **Note:** There is a negative sign
+- **Explantion:** Changes in magnetic flux creats an induced electromotive force (emf)
+- **Note:** There is a negative sign, since the induced $$\mathcal{E}$$ always tries to **oppose** the original magnetic field
+
+Thats pretty much it lol
+
